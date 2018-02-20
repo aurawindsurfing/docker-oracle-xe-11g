@@ -7,6 +7,7 @@ ENV LANG pl_PL.UTF-8
 ENV LANGUAGE pl_PL:pl  
 ENV LC_ALL pl_PL.UTF-8 
 
+
 ADD assets /assets
 RUN /assets/setup.sh
 
