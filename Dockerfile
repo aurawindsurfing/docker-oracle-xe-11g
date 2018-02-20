@@ -2,6 +2,7 @@ FROM ubuntu:16.04
 
 MAINTAINER Wei-Ming Wu <wnameless@gmail.com>
 
+RUN apt-get clean && apt-get update && apt-get install -y locales
 RUN locale-gen pl_PL.UTF-8
 ENV LANG pl_PL.UTF-8  
 ENV LANGUAGE pl_PL:pl  
